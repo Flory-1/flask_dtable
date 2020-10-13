@@ -1,9 +1,10 @@
+![flask_dtable](flask_dtable.png)
 # flask_dtable a Full-Featured Table System made with Python by Florian L&auml;mmlein
 #### Create an HTML Table and return it as an string.
 &nbsp;
 &nbsp;
 ***
-## Features
+## flask_dtable Features
 - HTML forms
 - Column Editor
 - Column replace
@@ -14,12 +15,12 @@
 &nbsp;
 &nbsp;
 ***
-## Install
+## How to Install
 pip install flask_dtable
 &nbsp;
 &nbsp;
 ***
-## Parameters
+## flask_dtable Parameters
 | <strong >Param</strong> | <strong >Description</strong> | <strong >Dict Params</strong> | <strong >Dict Description</strong> | <strong >Type</strong> | <strong >Default Value</strong> |
 | --- | --- | --- | --- | --- | --- |
 | data | Table content as an list of str | | | list | `[[]]` |
@@ -75,7 +76,7 @@ pip install flask_dtable
 &nbsp;
 &nbsp;
 ***
-## Special Parameters
+## flask_dtable Special Parameters
 | <strong >Main Param</strong> | <strong >Param</strong> | <strong >Dict Param</strong> | <strong >Description</strong> | <strong >Type</strong> | <strong >Default Value</strong> |
 | --- | --- | --- | --- | --- | --- |
 | ​form | request_out | request_name | Datafield name | list, str | `[]` |
@@ -132,7 +133,7 @@ pip install flask_dtable
 &nbsp;
 &nbsp;
 ***
-## Examples
+## flask_dtable Examples
 <strong >Basic usage:</strong>
 ```python
 flask_dtable(
