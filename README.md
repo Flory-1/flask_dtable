@@ -1,6 +1,8 @@
-## flask_dtable
-Create an HTML Table and return it as an string.
-
+# flask_dtable a Full-Featured Table System made with Python by Florian L&auml;mmlein
+#### Create an HTML Table and return it as an string.
+&nbsp;
+&nbsp;
+***
 ## Features
 - HTML forms
 - Column Editor
@@ -9,7 +11,14 @@ Create an HTML Table and return it as an string.
 - Custom column filters
 - Live feedback handler
 - Custom column popups
-
+&nbsp;
+&nbsp;
+***
+## Install
+pip install flask_dtable
+&nbsp;
+&nbsp;
+***
 ## Parameters
 | <strong >Param</strong> | <strong >Description</strong> | <strong >Dict Params</strong> | <strong >Dict Description</strong> | <strong >Type</strong> | <strong >Default Value</strong> |
 | --- | --- | --- | --- | --- | --- |
@@ -63,7 +72,9 @@ Create an HTML Table and return it as an string.
 | | | width | Popup window width | int | `1600` |
 | | | height | Popup window height | int | `1000` |
 | | | params | Window url parameters set name as str and value (by data index) | list, list (str, int) | `[[]]` |
-
+&nbsp;
+&nbsp;
+***
 ## Special Parameters
 | <strong >Main Param</strong> | <strong >Param</strong> | <strong >Dict Param</strong> | <strong >Description</strong> | <strong >Type</strong> | <strong >Default Value</strong> |
 | --- | --- | --- | --- | --- | --- |
@@ -118,7 +129,9 @@ Create an HTML Table and return it as an string.
 | | | class | div order classes | str | `col-md-12 col-lg-6` |
 | | | class_lower | div order classes (if index_lower is active class_lower is set) | str | `col-md-12 col-lg-12` |
 | | chars | | Field replace tags (special characters) as functions | | `{`<br>&nbsp;`ord('ä'):'ae',`<br>&nbsp;`ord('ü'):'ue',`<br>&nbsp;`ord('ö'):'oe'`<br>`}` |
-
+&nbsp;
+&nbsp;
+***
 ## Examples
 <strong >Basic usage:</strong>
 ```python
@@ -473,3 +486,11 @@ flask_dtable(
     }
 )
 ```
+&nbsp;
+&nbsp;
+***
+## Legacy versions
+This version of the flask_dtable are the acctual stable version which is compatible with Python 3+ and is supported for feature updates.
+
+## Do you have any Ideas, Changes or Bugs ?
+Please let me know in the Comments, i will try to fix or add waht you found/want :D
